@@ -1,0 +1,408 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 130px;
+    border-bottom: 5px solid #b6666f;
+    margin: 0px auto;
+    color: white;
+    background-color: #f53163;
+}
+
+#leftLogo{
+    width: 30%;
+    height: 130px;
+    float: left;
+}
+
+#leftLogo img{
+    width: 100px;
+    height: 100px; 
+}
+
+#title{
+    width: 35%;
+    height: 130px;
+    float: left;
+    text-align: center;
+}
+
+#title h1{
+    font-size: 28px;
+    line-height: 1.5;
+}
+
+#title h4{
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 5px;
+} 
+#rightLogo{
+    width: 30%;
+    height: 130px;
+    float: right;
+    margin-top: 5px;
+    margin-left: 15px;
+
+}
+
+#rightLogo img {
+    width: 50px;
+    height: 50px;
+}
+
+#rightLogo a{
+    text-decoration: none;
+    color: #e4c2c1;
+    font-weight: bold;
+}
+
+#content {
+    min-height: 600px;
+    width: 100%;
+    border-bottom: 1px solid  #b6666f;
+    margin: 0px auto;
+    background-color: #b6666f;
+}
+
+footer{
+    width: 100%;
+    height: 80px;
+    border-bottom: 5px solid #b6666f;
+    margin: 0px auto;
+    color: white;
+    background-color: #f53163;
+}
+footer {
+    text-align: center;
+}
+#social-medialinks a{
+   color: white;
+   margin: 0px auto;
+   padding: 10px; 
+}
+
+#formdesign{
+  min-height: 120px;
+  width: 700px;
+  padding: 10px;
+  margin: 0px auto;
+  border: 2px solid #b6666f;
+  box-shadow: 5px 5px 10px #b6666f;
+  background-color: #ddbea9;
+}
+
+#formdesign form{
+    text-align:center;
+}
+
+#formdesign h4{
+    text-align:center;
+    color: #b6666f;
+    font-size: 18px;
+}
+form input[type="text"] ,input[type="number"] ,input[type="email"], input[type="password"] ,textarea , select {
+    display: block;
+    width: 96%;
+    height: 25px;
+    margin: 8px;
+}
+#formdesign form input[type="submit"] , input[type="reset"]{
+    margin: 2px auto;
+    width: 60px;
+    height: 25px;
+    border: 2px solid #b6666f;
+    font-weight: bold;
+    color: #b6666f;
+}
+
+#formdesign  input[type="date"] {
+    display: block;
+    width: 96%;
+    height: 25px;
+    margin: 8px;
+}
+
+.resmsz{
+    height: 20px;
+    width: 80%;
+    margin: 0px auto;
+    background-color: #e4c2c1;
+    color: #b6666f;
+    text-align: center;
+    font-weight: bold;
+    line-height: 20px;
+    padding-top: 10px;
+}
+
+/* AdminChoice  <!-- Day 4 work --> */ 
+#adminHeader{
+    background-color: #f53163;
+    width: 100%;
+    height: 40px;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+#adminHeader h1{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+}
+
+#adminMain {
+    min-height: 600px;
+    width: 100%;
+    background-color: #b6666f;
+}
+
+#userHeader {
+    background-color: #f53163;
+    width: 100%;
+    height: 40px;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+#userHeader h1 {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+}
+
+#LeftSide {
+    width: 15%;
+    display: inline-block;
+    vertical-align: top;
+    background-color: #ddbea9;
+}
+
+#RightSide {
+    width: 80%;
+    display: inline-block;
+    background-color: #b6666f;
+    margin: 2px 10px;
+}
+
+#leftMenuNav ul{
+   margin: 0px;
+   padding: 0px;
+   list-style: none;
+}
+#leftMenuNav ul li {
+    line-height: 60px;
+    background-color: #f53163;
+    text-align: center;
+}
+#leftMenuNav ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    display: block;
+    font-weight: bold;
+}
+
+#leftMenuNav ul li a:hover{
+  background-color: #ddbea9;
+  color: #b6666f;
+  border: 2px solid #b6666f;
+  border-radius: 5px;
+}
+
+/* CategoryForm */
+
+.imgupload{
+    display: block;
+    width: 96%;
+    height: 25px;
+    margin: 8px;
+}
+
+.resadmsz{
+    height: 30px;
+    width: 100%;
+    margin: 0px auto;
+    color: #f4edee;
+    text-align: center;
+    font-weight: bold;
+    line-height: 30px;
+    padding-top: 20px;
+}
+
+/* Day--5 category Display - index.php*/
+.display{
+    width: 570px;
+    height: 350px;
+    border: 1px solid #e4c2c1;
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.display a {
+    color: black;
+    text-decoration: none;
+}
+.displayimg{
+    width: 400px;
+    height: 270px;
+    border: 2px solid #ddbea9;
+}
+
+/*item display*/
+
+.itemdisplay{
+    width: 570px;
+    height: 490px;
+    border: 1px solid #e4c2c1;
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.itemdisplay a {
+    color: black;
+    text-decoration: none;
+}
+.itemdesc {
+    font-weight: lighter;
+    color: #f4edee;
+}
+
+.buybtn{
+    width: 120px;
+    height: 40px;
+    background-color: #f53163;
+    margin: 10px auto;
+    line-height: 40px;
+    border-radius: 10px;
+}
+.buybtn a {
+    display: block;
+    color: #f4edee;
+}
+
+#logoutstyle{
+    color: #f4edee;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 5px;
+}
+
+#logoutstyle a{
+    color: #f4edee;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 5px;
+}
+
+#tabledesign{
+    border-collapse:collapse;
+    border-color: #e4c2c1;
+    padding: 10px;
+}
+#placeOrder{
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    background-color: #e4c2c1;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+#placeOrder a {
+    line-height: 40px;
+    display: block;
+    color: #f4edee;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#placeOrder a:hover{
+    background-color: #f53163;
+    line-height: 40px;
+    display: block;
+    border-radius: 5px;
+}
+
+textarea{
+    height: 150px;
+}
+
+#style {
+    width: 90%;
+    margin: 10px;
+    padding: 20px;
+    border : 2px solid #ddbea9 ;
+}
+
+#replybtn {
+    width: 100px;
+    height: 40px;
+    background-color: #f53163;
+    margin: 5px auto;
+    border-radius: 10px;
+}
+
+#replybtn a {
+    display: block;
+    color: #f4edee;
+    line-height: 40px;
+    text-align: center;
+}
+
+#myList {
+   margin: 20px ;
+   padding: 10px;
+   width: 1200px;
+   height: 400px;
+   overflow: scroll;
+   color: white;
+}
+
+#newStyle {
+    width: 100px;
+    height: 30px;
+    background-color: #b6666f;
+    border-radius: 2px;  
+    padding: 7px;
+    color: white;
+    text-decoration: none;
+}
+
+#searchbar {
+    background-color: #e4c2c1;
+    width: 99%;
+    padding: 10px;
+    height: 70px;
+    margin-bottom: 0px;
+}
+
+#searchbar input[type="text"] {
+   width : 85%;
+   float: left;
+   font-size: 24px;
+}
+
+#searchbar input[type="submit"] {
+    width : 5%;
+    background-color: #b6666f;
+    color: #f4edee;
+    float: left;
+    height: 40px;
+    border-radius: 8px;
+
+ }
